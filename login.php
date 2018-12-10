@@ -1,4 +1,5 @@
 <?php
+echo "This is update by Faizal";
 session_start();
 require("connection.php");
 if(isset($_SESSION['SESS_LOGGEDIN'])) {
